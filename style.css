@@ -78,3 +78,8 @@ the element often appears bigger than you have set
     background-color:#d5bdaf;
     box-sizing: border-box;
 }
+.list{
+    font-size: 40px;
+    font-weight: 1200px;
+    font-style: oblique;
+}

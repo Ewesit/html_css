@@ -37,3 +37,27 @@ th{
     margin-top: 50px;
     padding: 10px;
 }
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.column{
+    flex: 1;
+    padding: 20px;
+    background-color: #d5bdaf;
+    box-sizing: border-box;
+}
+/* flex:1  - Let all the flexible items be the same length, regardless of its content:*/
+/* Without the CSS box-sizing Property */
+/* By default, the width and height of an element is calculated like this: */
+/* width + padding + border = actual width of an element
+height + padding + border = actual height of an element */
+/* This means: When you set the width/height of an element, 
+the element often appears bigger than you have set 
+(because the element's border and padding are added to
+ the element's specified width/height). */
+ /* The box-sizing property solves this problem. */
+ 

@@ -60,4 +60,18 @@ the element often appears bigger than you have set
 (because the element's border and padding are added to
  the element's specified width/height). */
  /* The box-sizing property solves this problem. */
- 
+
+ /* Grid */
+ .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /*3 columns 1 line */
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.grid1{
+    padding: 20px;
+    background-color:#d5bdaf;
+    box-sizing: border-box;
+}
